@@ -70,6 +70,9 @@ object Labs extends App {
 
   val case_trade_1 = TradeC("2", "cc", 20, 50.00)
 
+  val person = new Person("Alex", "Freeman", "2000-12-03")
+  println(person.age)
+
 
 }
 
