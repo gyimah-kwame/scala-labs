@@ -52,6 +52,24 @@ object Labs extends App {
     println(username,password, userid, groupId, description, homeDirectory, shell)
   }
 
+  val trade = Trade("1", "aa", 10, 20.00)
+
+  println(trade)
+
+  println(trade.value())
+
+  val trade_1 = new Trade("1", "bb", 20)
+
+  val account = new Account(1, "kwame", 10.0)
+
+  val trade_3 = Trade.apply("2", "cc", 20, 50.00)
+
+  val trade_4 = Trade("2", "cc", 20, 50.00)
+
+  val case_trade = TradeC.apply("2", "cc", 20, 50.00)
+
+  val case_trade_1 = TradeC("2", "cc", 20, 50.00)
+
 
 }
 
